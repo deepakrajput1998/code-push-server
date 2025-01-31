@@ -1,22 +1,27 @@
 {
-    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
-    "contentVersion": "1.0.0.0",
-    "parameters": {
-      "project_sufix": {
-        "value": "your_project_suffix"
-      },
-      "az_location": {
-        "value": "your_azure_location"
-      },
-      "github_client_id": {
-        "value": "your_github_client_id"
-      },
-      "github_client_secret": {
-        "value": "your_github_client_secret"
-      },
-      "logging": {
-        "value": true
-      }
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "project_suffix": {
+      "value": "cpuae"
+    },
+    "az_location": {
+      "value": "uaenorth"
+    },
+    "github_client_id": {
+      "value": "Ov23liqqJgUyfrz0cUFL"
+    },
+    "github_client_secret": {
+      "value": "f193d9981bf91b5d872cdd818e4aaa91aa68331b"
+    },
+    "microsoft_client_id": {
+      "value": ""  
+    },
+    "microsoft_client_secret": {
+      "value": "" 
+    },
+    "logging": {
+      "value": true
     }
   }
-  
+}
